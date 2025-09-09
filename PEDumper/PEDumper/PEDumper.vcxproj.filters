@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HDR">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="HDR\lib">
+      <UniqueIdentifier>{e68da9dc-80ed-4a3d-996f-1d9f72961346}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PEDumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="watchercloser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="n0xDumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exportslist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modulelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exportsPE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hdatabasePE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="headerPE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="importsPE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kanca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simp.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="hesh.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="watchercloser.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="modulelist.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="exportsPE.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="importsPE.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="exportslist.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="hdatabasePE.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="headerPE.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="n0xDumper.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="kanca.hpp">
+      <Filter>HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.hpp">
+      <Filter>HDR\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrayr.hpp">
+      <Filter>HDR\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapper.hpp">
+      <Filter>HDR\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
